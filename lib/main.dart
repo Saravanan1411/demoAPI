@@ -1,4 +1,5 @@
 import 'package:demoapi/Screens/EntriesAPI.dart';
+import 'package:demoapi/Screens/ProductDisplay.dart';
 import 'package:flutter/material.dart';
 
 import '/Screens/activityApiDisplay.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: EntriesAPI(),
+      home: ProductAPI(),
     );
   }
 }
