@@ -1,8 +1,9 @@
-import 'package:demoapi/Screens/EntriesAPI.dart';
-import 'package:demoapi/Screens/ProductDisplay.dart';
+import 'package:demoapi/Screens/PostAPI/AlbumAPI.dart';
+import 'package:demoapi/Screens/GetAPI/EntriesAPI.dart';
+import 'package:demoapi/Screens/GetAPI/ProductDisplay.dart';
 import 'package:flutter/material.dart';
 
-import '/Screens/activityApiDisplay.dart';
+import 'Screens/GetAPI/activityApiDisplay.dart';
 
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ProductAPI(),
+      home: AlbumAPI(),
     );
   }
 }

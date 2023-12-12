@@ -1,10 +1,11 @@
 import 'dart:convert';
 
-import 'package:demoapi/Screens/ProductDescription.dart';
+
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-import '../Models/productsData.dart';
+import '../../Models/productsData.dart';
+import 'ProductDescription.dart';
 
 
 class ProductAPI extends StatefulWidget {

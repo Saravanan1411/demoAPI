@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'package:http/http.dart' as http;
 
-import '../Models/activityModel.dart';
+import '../../Models/activityModel.dart';
 
 class ActivityAPI extends StatefulWidget {
   const ActivityAPI({super.key});

@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 
-import '../Models/OrgEntryFile.dart';
+import '../../Models/OrgEntryFile.dart';
 import 'package:http/http.dart' as http;
 
 class EntriesAPI extends StatefulWidget {
